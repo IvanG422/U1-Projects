@@ -13,7 +13,7 @@ public class Sales {
         discount = Integer.parseInt(JOptionPane.showInputDialog("What is the discount?"));
         quantity = Integer.parseInt(JOptionPane.showInputDialog("How many are you buying?"));
         salesTax = Integer.parseInt(JOptionPane.showInputDialog("what is the sales tax?"));
-        
+
         subtotal = quantity * price;
         taxTotal = salesTax/100;
         totalCost = subtotal + taxTotal;
